@@ -1,14 +1,11 @@
 <?php
-
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-
 define('LARAVEL_START', microtime(true));
-
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -20,9 +17,7 @@ define('LARAVEL_START', microtime(true));
 | loading any of our classes later on. It feels great to relax.
 |
 */
-
 require __DIR__.'/../vendor/autoload.php';
-
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
@@ -34,7 +29,6 @@ require __DIR__.'/../vendor/autoload.php';
 | the responses back to the browser and delight our users.
 |
 */
-
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*
